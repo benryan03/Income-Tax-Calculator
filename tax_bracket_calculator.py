@@ -1,3 +1,4 @@
+#Tax Bracket Calculator 1.0
 print("Tax Bracket Calculator");
 
 bracket_1_limit = int(input("Enter the limit of bracket 1 (lowest bracket): "));
