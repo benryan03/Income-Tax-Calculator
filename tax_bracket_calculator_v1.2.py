@@ -1,8 +1,10 @@
-#Tax Bracket Calculator 1.2
-print("Tax Bracket Calculator 1.2")
+#Tax Bracket Calculator 1.3
+print("Tax Bracket Calculator 1.3")
 
 limits = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 rates = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+#gathering user inputs
 
 bracket_count = int(input("Enter the number of brackets (limit 10): "))
 
@@ -12,20 +14,34 @@ for x in range (0, bracket_count):
 
 income = int(input("Enter income: "))
 
-ceiling = limits[0]
+#all user inputs complete
 
-x = 0
+max_bracket = limits[x]
+max_bracket_index = x
 result = 0.0
 
-while income > ceiling:
-    x = x + 1
-    ceiling = limits[x]
+if income < max_bracket:
 
-#calculations for initial brackets
-for y in range (0, x):
-    result = result + (limits[y] - limits[y - 1]) * (1 - rates[y])
+    #this loop calculates how many brackets to apply
+    x = 0
+    ceiling = limits[0]
+    while income > ceiling:
+        x = x + 1
+        ceiling = limits[x]
 
-#calculation for last bracket
-result = result + (income - limits[x - 1]) * (1 - rates[x])
+        #calculations for initial brackets
+        for y in range (0, x):
+            result = result + (limits[y] - limits[y - 1]) * (1 - rates[y])
+
+        #calculation for final bracket
+        result = result + (income - limits[x - 1]) * (1 - rates[x])
+
+else:
+    #calculations for initial brackets
+    for y in range (0, max_bracket_index):
+        result = result + (limits[y] - limits[y - 1]) * (1 - rates[y])
+
+    #calculation for final bracket
+    result = result + (income - limits[x - 1]) * (1 - rates[x])
 
 print("Net income: " + str(result))
