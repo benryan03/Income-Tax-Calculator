@@ -15,3 +15,6 @@ Changed phrasing of output.
 v1.3 (2/4/20)
 Fixed a bug where the program would crash if income was greater than maximum tax bracket.
 Added comments to improve readability.
+
+v1.4 (2/4/20)
+Increased maximum number of tax brackets to 536,870,912
