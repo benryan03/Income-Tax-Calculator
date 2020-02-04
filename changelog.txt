@@ -11,3 +11,7 @@ v1.2 (2/4/20)
 Removed unnecessary semicolons.
 Removed extraneous code used for debugging.
 Changed phrasing of output.
+
+v1.3 (2/4/20)
+Fixed a bug where the program would crash if income was greater than maximum tax bracket.
+Added comments to improve readability.
