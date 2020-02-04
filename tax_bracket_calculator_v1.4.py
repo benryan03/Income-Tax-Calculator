@@ -10,7 +10,6 @@ bracket_count = int(input("Enter the number of brackets: "))
 
 for x in range (0, bracket_count):
     limits.append(int(input("Enter the limit of bracket " + str(x+1) + ": ")))
-    print(limits)
     rates.append(float(input("Enter the tax rate of bracket " + str(x+1) + " (period followed by number): ")))
 
 income = int(input("Enter income: "))
