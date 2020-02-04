@@ -1,8 +1,13 @@
-V1.0 (1/30/20)
+v1.0 (1/30/20)
 
 tax_bracket_calculator.py calculates tax brackets.
 It is hardcoded to use 3 brackets.
 The user can adjust the size and tax rate of each bracket.
 
-V1.1 (2/4/20)
+v1.1 (2/4/20)
 Users can now specify the number of tax brackets, up to 10.
+
+v1.2 (2/4/20)
+Removed unnecessary semicolons.
+Removed extraneous code used for debugging.
+Changed phrasing of output.
