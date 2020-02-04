@@ -1,16 +1,17 @@
-#Tax Bracket Calculator 1.3
-print("Tax Bracket Calculator 1.3")
+#Tax Bracket Calculator 1.4
+print("Tax Bracket Calculator 1.4")
 
-limits = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-rates = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+limits = []
+rates = []
 
 #gathering user inputs
 
-bracket_count = int(input("Enter the number of brackets (limit 10): "))
+bracket_count = int(input("Enter the number of brackets: "))
 
 for x in range (0, bracket_count):
-    limits[x] = int(input("Enter the limit of bracket " + str(x+1) + ": "))
-    rates[x] = float(input("Enter the tax rate of bracket " + str(x+1) + " (period followed by number): "))
+    limits.append(int(input("Enter the limit of bracket " + str(x+1) + ": ")))
+    print(limits)
+    rates.append(float(input("Enter the tax rate of bracket " + str(x+1) + " (period followed by number): ")))
 
 income = int(input("Enter income: "))
 
