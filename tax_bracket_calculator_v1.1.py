@@ -1,5 +1,5 @@
-#Tax Bracket Calculator 1.1
-print("Tax Bracket Calculator 1.1");
+#Tax Bracket Calculator V1.1
+print("Tax Bracket Calculator V1.1");
 
 limits = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 rates = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
