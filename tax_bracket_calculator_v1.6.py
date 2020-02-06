@@ -5,6 +5,7 @@ limits = []
 rates = []
 
 bracket_count = int(input("Enter the number of brackets: "))
+bracket_count = bracket_count - 1
 
 for x in range (0, bracket_count):
     limits.append(int(input("Enter the limit of bracket " + str(x+1) + ": ")))
