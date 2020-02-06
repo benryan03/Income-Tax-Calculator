@@ -20,3 +20,6 @@ Increased maximum number of tax brackets to 536,870,912
 
 v1.5 (2/5/20)
 Fixed a bug introduced by v1.4, where math errors would occur if the "limits" and "rates" lists did not have an extra 0 at the end.
+
+v1.6 (2/6/20)
+Fixed a bug where math errors would occur if income was greater than second to last tax bracket.
