@@ -23,3 +23,4 @@ Fixed a bug introduced by v1.4, where math errors would occur if the "limits" an
 
 v1.6 (2/6/20)
 Fixed a bug where math errors would occur if income was greater than second to last tax bracket.
+Updated input prompts to more accurately request number of brackets
