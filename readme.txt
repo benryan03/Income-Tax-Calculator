@@ -1,11 +1,13 @@
 Sample output:
 
-Tax Bracket Calculator
-Enter the limit of bracket 1 (lowest bracket): 20000
-Enter the percentage of bracket 1 (period followed by number): .1
-Enter the limit of bracket 2:50000
-Enter the percentage of bracket 2 (period followed by number): .3
-Enter the limit of bracket 3:100000
-Enter the percentage of bracket 3 (period followed by number): .5
-Enter income: 85000
-Post tax income: 60500
+Tax Bracket Calculator v1.6
+Enter the number of brackets: 4
+Enter the limit of bracket 1: 25000
+Enter the tax rate of bracket 1 (period followed by number): .1
+Enter the limit of bracket 2: 50000
+Enter the tax rate of bracket 2 (period followed by number): .2
+Enter the limit of bracket 3: 100000
+Enter the tax rate of bracket 3 (period followed by number): .3
+Enter the tax rate for income above 100000 (period followed by number): .4
+Enter income: 78000
+Net income: 62100.0
