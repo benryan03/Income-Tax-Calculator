@@ -1,3 +1,9 @@
+This is a program that I wrote for practice with Python.
+
+It asks the user to input the number of tax brackets to calculate, then the income limit and tax rate for each bracket, then the income to calculate taxes for.
+
+-------------------------------------------------------------------------------
+
 Sample output:
 
 Tax Bracket Calculator v1.6
